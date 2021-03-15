@@ -70,17 +70,23 @@ Time variable:
 
 ### Analysis and Visualization
 
-1. ![Alt text](images/Number_of_rooms_for_rent_vs_minimum_nights.png?raw=true"Title")
+## 1. Analysis of no. of rooms for rent by minimum_nights
+
+![Alt text](images/Number_of_rooms_for_rent_vs_minimum_nights.png?raw=true"Title")
 
 Most people prefer to rent airbnb rooms for one-three night, though there are spikes at 7, 10 and 14 days too.
 
 
-2. ![Alt text](images/Different_Neighbourhoods'_number_of_rooms_for_rent_at_different_minimum_nights.png?raw=true"Title")
+## 2. Analysis of neighbourhood_group by minimum_nights
+
+![Alt text](images/Different_Neighbourhoods'_number_of_rooms_for_rent_at_different_minimum_nights.png?raw=true"Title")
 
 Manhattan and Brooklyn are the neighbourhoods getting a lot of people renting rooms for 30 days.\
 Staten Island and Bronx is not a very popular spot to rent rooms.
 
-3. ![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Bronx.png?raw=true"Title")
+## 3. Price and no. of rooms variation per neighbourhood - Bronx
+
+![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Bronx.png?raw=true"Title")
 
 In above map, colour is adjusted according to the sum of prices of rooms in the particular neighbourhood. Size according to the number of rooms for rent rooms in that neighbourhood.\
 In the neighbourhood of Bronx, following are the hottest spots for rooms:
@@ -91,7 +97,9 @@ In the neighbourhood of Bronx, following are the hottest spots for rooms:
 >Mott Haven(Price=5335, no of rooms=60)\
 >Concourse(Price=4309, no of rooms=50) are the hottest spots for rooms.
 
-4. ![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Brooklyn.png?raw=true"Title")
+## 4. Price and no. of rooms variation per neighbourhood - Brooklyn
+
+![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Brooklyn.png?raw=true"Title")
 
 In above map, colour is adjusted according to the sum of prices of rooms in the particular neighbourhood. Size according to the number of rooms for rent rooms in that neighbourhood.\
 In the neighbourhood of Brooklyn, following are the hottest spots for rooms:
@@ -100,7 +108,9 @@ In the neighbourhood of Brooklyn, following are the hottest spots for rooms:
 >Bedford-Stuyvesant (Price=399917, no of rooms=3714)\
 >Bushwick (Price=209033, no of rooms=2465) are the hottest spots for rooms.
 
-5. ![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Manhattan.png?raw=true"Title")
+## 5. Price and no. of rooms variation per neighbourhood - Manhattan
+
+![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Manhattan.png?raw=true"Title")
 
 In above map, colour is adjusted according to the sum of prices of rooms in the particular neighbourhood. Size according to the number of rooms for rent rooms in that neighbourhood.\
 In the neighbourhood of Manhattan, following are the hottest spots for rooms:
@@ -111,7 +121,9 @@ In the neighbourhood of Manhattan, following are the hottest spots for rooms:
 >East Village (Price=344812, no of rooms=1853)\
 >Upper East Side (Price=339729, no of rooms=1800) are the hottest spots for rooms.
 
-6. ![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Queens.png?raw=true"Title")
+## 6. Price and no. of rooms variation per neighbourhood - Queens
+ 
+![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Queens.png?raw=true"Title")
 
 In above map, colour is adjusted according to the sum of prices of rooms in the particular neighbourhood. Size according to the number of rooms for rent rooms in that neighbourhood.\
 In the neighbourhood of Queens, following are the hottest spots for rooms:
@@ -120,7 +132,9 @@ In the neighbourhood of Queens, following are the hottest spots for rooms:
 >Long Island City (Price=68449, no of rooms=537) are the hottest spots for rooms.
 
 
-7. ![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Staten_Island.png?raw=true"Title")
+## 7. Price and no. of rooms variation per neighbourhood - Staten Island
+
+![Alt text](images/Room_prices_and_number_of_rooms_for_rent_in_each_neighbourhood_of_Staten_Island.png?raw=true"Title")
 
 In above map, colour is adjusted according to the sum of prices of rooms in the particular neighbourhood. Size according to the number of rooms for rent rooms in that neighbourhood.\
 In the neighbourhood of Staten Island, following are the hottest spots for rooms:
@@ -138,7 +152,9 @@ In the neighbourhood of Staten Island, following are the hottest spots for rooms
 * Manhattan is also a very popular neighbouhood_group. Can increase density of rooms in north Manhattan vicinity of Harlem and Upper East Side.
 
 
-8. ![Alt text](images/Mean_Price_per_neighbourhood.png?raw=true"Title")
+## 8. Analysing mean price per neighbourhood in each neighbourhood_group for all neighbourhood_groups
+
+![Alt text](images/Mean_Price_per_neighbourhood.png?raw=true"Title")
 
 **Surprising insights**:\
 * Two neighbourhoods in Staten Island command very high prices- Fort Wadsworth and Woodrow, even though Staten Island does not have many airbnb's. These two neighbourhoods also do not have any reviews on airbnb's, so insight is to decrease prices or remove them from airbnb.
@@ -181,4 +197,71 @@ Entire home/apt and private room are for rent in almost equal numbers. Shared ro
 1. Brooklyn and Manhattan are the most popular neighbourhood groups for rooms. In Brooklyn the most popular room type is Private room(50.4%) by a small margin over Entire home/apt(47.5%), and in Manhattan it is Entire home/apt(61%) by a huge margin over private room(37%).
 2. Shared rooms are not very popular among travellers. The maximum % they constitute in any region of the total no of rooms for rent is 5% in Bronx.
 
-## 13. 
+## 13. Plotting all room_types per neighbourhood on map- Brooklyn
+
+![Alt text](images/Spread_of_different_types_of_rooms_in_Brooklyn.png?raw=true"Title")
+
+Can see almost equal number of blues and reds.\
+1. Very dense packing of both private room and Entire home/apt in area of Williamsburg, Bedford-Stuyvesant.
+2. Dense packing of Private room in Bushwick.
+3. Moderate packing of private room and Entire home/apt in area of Greenpoint.
+
+## 14. Plotting all room_types per neighbourhood on map- Bronx
+
+![Alt text](images/Spread_of_different_types_of_rooms_in_Bronx.png?raw=true"Title")
+
+Can clearly see more blues(more private rooms) than reds(Entire home/apt) in Bronx. Almost 60% airbnb's in Bronx are private rooms, and around 39% entire home/apt.\
+1. All airbnb's are quite spread out in general, but can see some clustering at Concourse and Mott Haven.
+
+
+## 15. Plotting all room_types per neighbourhood on map- Manhattan
+
+![Alt text](images/Spread_of_different_types_of_rooms_in_Manhattan.png?raw=true"Title")
+
+Very high presence of both Entire home/apt and Private room in Manhattan.\
+1. Clustering of Private rooms in north Harlem and Entire home/apt in south Harlem.
+2. Clustering of Private rooms in north part of Upper West Side and Upper East Side neighbourhoods, and surprisingly little presence of in rest of this neighbourhood. The rest of these neighbourhoods thick clusters of Entire home/apt.
+3. Clustering of shared room in Hell's Kitchen neighbourhood, and some presence of Shared rooms in Kips Bay. Very little to none shared rooms in rest of Manhattan.
+4. Very thick clustering of Entire home/apt in neighbourhoods of Chelsea, Kips Bay and West Village.
+5. Very thick clustering of both Entire home/apt and Private rooms in neighbourhood of East Village and Lower East Side.
+6. Small cluster of Entire home/apt in Financial District.
+
+## 16. Plotting all room_types per neighbourhood on map- Queens
+
+![Alt text](images/Spread_of_different_types_of_rooms_in_Queens.png?raw=true"Title")
+
+Sparse distribution of airbnb's throughout Queens except the NorthWestern part.\
+1. Thick clustering of Private rooms in Astoria, smaller cluster of Entire home/apt in Astoria too.
+2. Small clusters of Private room in Sunny Side, and Ridgewood.
+
+## 17. Plotting all room_types per neighbourhood on map- Staten Island
+
+![Alt text](images/Spread_of_different_types_of_rooms_in_StatenIsland.png?raw=true"Title")
+
+Very sparse distribution on airbnb's.\
+1. No clusters per say except small cluster of private room in St. George.
+
+## 18. Price by room type
+
+![Alt text](images/Price_dist_by_room_type.png?raw=true"Title")
+
+Median price of Entire home/apt is higher than Private room and shared room. Insight to airbnb is: Increase the listings of entire home/apt.\
+1. Clearly see that price for entire home/apt is slightly higher than private room, we would have expected there to be a much larger gap between the price of the two.
+2. There are more private rooms to rent on the lower price side of private rooms, whereas more entire home/apt for rent on the higher side of price for entire home/apt.
+3. Shared room is much cheaper than both private room and entire home/apt, but is very low in demand and hence very low in supply.
+
+## 19. Price vs. no. of rooms for each room type
+
+![Alt text](images/Price_vs_no_of_rooms.png?raw=true"Title")
+
+1. Private room on average costs lesser than entire home/apt.
+2. Entire home/apt are spread over a large price range- some are cheaper than private rooms and others are expensive.
+3. Shared rooms as expected have the least pricing.
+
+## 20. Number of reviews by neighbourhood
+
+![Alt text](images/Neighbourhood_by_no_of_reviews.png?raw=true"Title")
+
+**Insights**:
+1. Bedford-Stuyvesant in Brooklyn has the highest number of reviews- seems to be popular.
+2. Harlem in Manhattan and Williamsburg in Brooklyn also seem to be quite popular- they too have many reviews.
