@@ -130,7 +130,55 @@ In the neighbourhood of Staten Island, following are the hottest spots for rooms
 >Tompkinsville (Price=3200, no of rooms=42) are the hottest spots for rooms.
 
 
-*Useful insights gained from above analysis*:
+**Useful insights gained from above analysis**:\
 * Brooklyn is the best neighbourhood_group to have more number of rooms, since the prices are very high and it also seems very popular.
-* In Brooklyn, it is recommended to increase density of airbnb's around WIlliamsburg, Bedford-Stuyvesant and Bushwick as they are all located closeby.
+
+**Advice for Airbnb Executives**:\
+* To increase density of airbnb's around WIlliamsburg, Bedford-Stuyvesant and Bushwick as they are all located closeby.
 * Manhattan is also a very popular neighbouhood_group. Can increase density of rooms in north Manhattan vicinity of Harlem and Upper East Side.
+
+
+8. ![Alt text](images/Mean_Price_per_neighbourhood.png?raw=true"Title")
+
+**Surprising insights**:\
+* Two neighbourhoods in Staten Island command very high prices- Fort Wadsworth and Woodrow, even though Staten Island does not have many airbnb's. These two neighbourhoods also do not have any reviews on airbnb's, so insight is to decrease prices or remove them from airbnb.
+* Silver Lake neighbourhood in Staten Island neighbourhood_group is very popular(has many reviews) but price is low. Insight is to increase prices here.
+* Two neighburhoods in Queens also command high prices- Belle Harbor and Breezy Point.
+* Almost all of Manhtaan commands high prices as expected.
+* Brooklyn, inspite of having high densities of airbnb's, does not command high prices except in some northern neighbourhoods like Vinegar Hill and Navy Yard, and even that could be due to their proximity to Manhattan.
+
+**Advice for Airbnb Executives**:\
+Decrease no of airbnb's in neighbourhoods of Brooklyn which don't command high prices. It may be due to oversaturation.
+
+## 9. Analysing price with limit on number_of_reviews
+
+![Alt text](images/Mean_Price_per_neighbourhood_with_no_of_reviews_less_than_5.png?raw=true"Title")
+
+1. Neighbourhood New Drop in Staten Island does not seem to be very popular as it has 0 reviews and price is also low which means that the airbnb must not be very good. So drop all properties from this neighbourhood from airbnb.
+2. Fort Wadsworth and Woodrow from Staten Island, Sea Gate from Brooklyn and Breezy Point from Queens should be dropped from airbnb as they have very high prices but no visitors.
+
+## 10. Analysing number_of_reviews vs availability_365
+
+![Alt text](images/Availability365_vs_no_of_reviews.png?raw=true"Title")
+
+We can see clear dips in the graph in two spots-\
+1. At around minimum_nights = 90
+2. At around minimum_nights = 180
+
+**Insight**:\
+Discourage airbnb owners to keep airbnb's available for 88-90 days and 176-181 days ans people prefer renting for either 3months or 6months, and these figures are just 2-3 days less than 3months/6months.
+
+## 11. Breakup of room type by percentage
+
+![Alt text](images/RoomType_breakup.png?raw=true"Title")
+
+Entire home/apt and private room are for rent in almost equal numbers. Shared rooms are very less as people prefer privacy.
+
+## 12. Room_type vs neighbourhood_group
+
+![Alt text](images/No_of_rooms_per_room_type_per_neighbourhood_group.png?raw=true"Title")
+
+1. Brooklyn and Manhattan are the most popular neighbourhood groups for rooms. In Brooklyn the most popular room type is Private room(50.4%) by a small margin over Entire home/apt(47.5%), and in Manhattan it is Entire home/apt(61%) by a huge margin over private room(37%).
+2. Shared rooms are not very popular among travellers. The maximum % they constitute in any region of the total no of rooms for rent is 5% in Bronx.
+
+## 13. 
