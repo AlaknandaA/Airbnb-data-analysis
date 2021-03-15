@@ -154,7 +154,7 @@ In the neighbourhood of Staten Island, following are the hottest spots for rooms
 
 ## 8. Analysing mean price per neighbourhood in each neighbourhood_group for all neighbourhood_groups
 
-![Alt text](images/Mean_Price_per_neighbourhood.png?raw=true"Title")
+![Alt text](images/Mean_Price_per_neighborhood.png?raw=true"Title")
 
 **Surprising insights**:\
 * Two neighbourhoods in Staten Island command very high prices- Fort Wadsworth and Woodrow, even though Staten Island does not have many airbnb's. These two neighbourhoods also do not have any reviews on airbnb's, so insight is to decrease prices or remove them from airbnb.
